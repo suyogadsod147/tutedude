@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Todo List</h1>
+    </div>
+    <div class="box">
+        <form action="/" method ="POST">
+            <input type="text" name="ele1" placeholder="Enter the task">
+            <button type="submit" class="btn"> +</button>
+        </form>
+
+      <% for(var i=0 ; i<ejes.length ;i++){ %>
+       <div class="items">
+        <input type="checkbox" name="" id="">
+        <p class="todo"><%=ejes[i]%></p>
+       </div>
+        <% }%>
+    </div>
+</body>
+</html>

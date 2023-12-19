@@ -1,0 +1,141 @@
+/* small phone */
+@media only screen and (max-width:480px) {
+    h1{
+        font-size: 120%;
+    }
+    .logo{
+        height: 60px;
+        width: auto;
+        margin-left:5px ;
+        margin-top: 10px;
+    }
+    a{
+        font-size: 60%;
+    }
+    .main-nav{
+        margin-top: 30px;
+        font-size: 50%;
+        
+    }
+    .main-nav li{
+
+        visibility: hidden;
+    }
+   h2{
+    font-size: 90%;
+   }
+   .long-copy{
+    font-size: 0.75rem;
+    line-height: 120%;
+    width: 90%;
+    margin-left: 5%;
+   }
+   .card-icons{
+    font-size: 200%;
+   }
+   h3{
+    font-size: 80%;
+    /* text-align: center; */
+   }
+   .box p{
+    font-size: 70%;
+    line-height: 145%;
+}
+    
+
+}
+
+/* small tab or big phone */
+@media (min-width:481px) and (max-width:767px) {
+    h1{
+        font-size: 150%;
+    }
+    .logo{
+        height: 68px;
+        width: auto;
+        margin-left:12px ;
+        margin-top: 15px;
+    }
+    .main-nav{
+        margin-top: 35px;
+        font-size: 70%;
+        display: hidden;
+    }
+    a{
+        font-size: 80%;
+    }
+    h2{
+        font-size: 120%;
+    }
+       .long-copy{
+        font-size: 0.9rem;
+        line-height: 120%;
+        width: 90%;
+        margin-left: 5%;
+       }
+       .card-icons{
+        font-size: 150%;
+       }
+
+       h3{
+        font-size: 60%;
+        /* text-align: center; */
+       }
+
+       .box p{
+        font-size: 60%;
+        line-height: 145%;
+    }
+    .works-step div{
+        color: orange;
+        border: 2px solid black;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        display: inline;
+        padding: 5px;
+        text-align: center;
+        float: left;
+        font-size: 110%;
+    }
+    .works-step p{
+        font-size: 0.7rem;
+    }
+    .app-screen{
+        width: 90%;
+        margin-left: 5%;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    .city-feature{
+        font-size: 0.65rem;
+    }
+    blockquote{
+        font-size: 0.8rem;
+    }
+    
+    .plans{
+        width: 80%;
+        margin-left: 10%;
+        padding-left: 10%;
+    }
+    
+    
+    
+}
+
+/*big tab small pc */
+@media (min-width:767px) and (max-width:1023px) {
+
+
+ 
+   
+}
+
+/* small tab or big pc */
+@media only screen and (max-width:1440px) {
+  
+    
+
+
+  
+}

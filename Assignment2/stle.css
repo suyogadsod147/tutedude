@@ -1,0 +1,52 @@
+.jumbotron{
+
+    background-image: url(1stjumbotron.jpg);
+    text-align: center;
+    margin-top:50px;
+    color: white !important;
+    margin-bottom: 50px;
+    height: 350px;
+   
+}
+
+#content{
+    text-align: center;
+    align-items: center;
+}
+
+.card-deck{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.card{
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-img-top{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+#footer{
+    text-align: center;
+    height: 400px;
+    background-color: aqua;
+    padding-top: 150px;
+    margin-top: 50px;
+    padding-bottom: 150px;
+    
+}
+
+#playstoreicon{
+    width: 200px;
+}
+
+
+
+
+
